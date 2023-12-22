@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="imgs/bookmark.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark</title>
+</head>
+<body >
+<body>
+    
+    <div class="bookMark">
+        <div class="container text-center">
+            <h1 class="py-4" >Bookmark</h1>
+            <div class="content w-100 py-4">
+                <h2>
+                    <i class="fa-solid fa-bookmark"></i>
+                    Bookmark your favorite sites
+                    <i class="fa-solid fa-bookmark"></i>
+                  </h2>
+            </div>
+            <div class="inputs text-start w-100">
+                <label for="book" class="form-label ">
+                    <i class="fa-solid fa-book"></i>Site Name
+                </label>
+                <input type="text" id="book" class="form-control" placeholder="Website URL">
+                <label for="url" class="form-label mt-2">
+                    <i class="fa-solid fa-link"></i>Site URL
+                </label>
+                <input type="text" id="url" class="form-control" placeholder="Website URL">
+            </div>
+            <button id="add" onclick="addBook()" class="btn btn-danger mt-3 px-4">sumbit</button>
+            <div class=" borderr mt-2">
+                
+            </div>
+            <table class="table mt-3 bg-light">
+                <thead>
+                  <tr>
+                    <th scope="col">Index</th>
+                    <th scope="col">Website Name</th>
+                    <th scope="col">Visit</th>
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="demo">
+
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

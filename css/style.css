@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    border-bottom: dashed;
+}
+body{
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+
+.content h2 {
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    
+}
+.borderr{
+    border-bottom: dashed;
+}
+
+.bookMark {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
